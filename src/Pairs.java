@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class Pairs {
 
 	public static void main(String[] args) throws IOException {
-		Stream<String> lines = Files.lines(Paths.get("./imput_pairs.txt"));
+		Stream<String> lines = Files.lines(Paths.get("./input_pairs.txt"));
 		List<String> collect = lines.collect(Collectors.toList());
 		
 		int sum = 0;

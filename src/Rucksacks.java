@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class Rucksacks {
 
 	public static void main(String[] args) throws IOException {
-		Stream<String> lines = Files.lines(Paths.get("./imput_rucksacks.txt"));
+		Stream<String> lines = Files.lines(Paths.get("./input_rucksacks.txt"));
 		List<String> collect = lines.collect(Collectors.toList());
 		
 		int sum = 0;
